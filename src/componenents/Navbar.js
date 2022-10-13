@@ -28,6 +28,7 @@ function Navbar() {
               About
             </Link>
           </ul>
+
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link" to="/login">
