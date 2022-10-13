@@ -21,18 +21,20 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav mb-2 mb-lg-0">
-            <Link exact className="nav-link" aria-current="page" to="/">
-              Home
-            </Link>
-            <Link className="nav-link" to="About">
-              About
-            </Link>
+            <li className="nav-item">
+              <Link exact className="nav-link" aria-current="page" to="/">
+                Home
+              </Link>
+              <Link className="nav-link" to="About">
+                About
+              </Link>
+            </li>
           </ul>
 
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link" to="/login">
-                Login
+                Login | Admin
               </Link>
               <Link className="nav-link" to="/register">
                 Register
